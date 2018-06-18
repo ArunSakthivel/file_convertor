@@ -1,0 +1,10 @@
+
+Request: 
+Method: POST
+Params: {"file": "upirMxHG69Flje+YK0kpRQ==", "filename": "my file name"}}
+URL: http://localhost:3000/convertor
+
+
+
+Example:
+curl -v -H 'Content-Type: application/json' -H 'Accept: application/json' -X POST -d '{'file_convertor': {"file": "upirMxHG69Flje+YK0kpRQ==", "filename": "my file name"}}' http://localhost:3000/convertor

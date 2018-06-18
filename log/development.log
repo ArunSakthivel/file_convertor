@@ -1,0 +1,629 @@
+Started GET "/" for 127.0.0.1 at 2018-06-17 16:10:28 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/arun/.rvm/gems/ruby-2.5.1@rails-5.2/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/arun/.rvm/gems/ruby-2.5.1@rails-5.2/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb (4.7ms)
+Completed 200 OK in 28ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-06-17 16:10:29 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/convertor" for 127.0.0.1 at 2018-06-17 16:54:16 +0530
+  
+ActionController::RoutingError (uninitialized constant ConvertorsController):
+  
+bootsnap (1.3.0) lib/bootsnap/load_path_cache/core_ext/active_support.rb:53:in `block in load_missing_constant'
+bootsnap (1.3.0) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.3.0) lib/bootsnap/load_path_cache/core_ext/active_support.rb:53:in `rescue in load_missing_constant'
+bootsnap (1.3.0) lib/bootsnap/load_path_cache/core_ext/active_support.rb:42:in `load_missing_constant'
+activesupport (5.2.0) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.0) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.0) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.0) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.0) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.0) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.0) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+activerecord (5.2.0) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Error occurred while parsing request parameters.
+Contents:
+
+{'file_convertor': {'file': "upirMxHG69Flje+YK0kpRQ==", 'filename': "my file name"}}
+Started POST "/convertor" for 127.0.0.1 at 2018-06-17 16:55:01 +0530
+  
+LoadError (Unable to autoload constant ConvertorsController, expected /home/arun/Desktop/file_convertor/app/controllers/convertors_controller.rb to define it):
+  
+activesupport (5.2.0) lib/active_support/dependencies.rb:503:in `load_missing_constant'
+bootsnap (1.3.0) lib/bootsnap/load_path_cache/core_ext/active_support.rb:43:in `load_missing_constant'
+activesupport (5.2.0) lib/active_support/dependencies.rb:193:in `const_missing'
+activesupport (5.2.0) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.0) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.0) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.0) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.0) lib/active_support/inflector/methods.rb:281:in `constantize'
+activesupport (5.2.0) lib/active_support/dependencies.rb:574:in `get'
+activesupport (5.2.0) lib/active_support/dependencies.rb:605:in `constantize'
+actionpack (5.2.0) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.0) lib/action_dispatch/http/parameters.rb:101:in `binary_params_for?'
+actionpack (5.2.0) lib/action_dispatch/http/parameters.rb:92:in `set_binary_encoding'
+actionpack (5.2.0) lib/action_dispatch/http/parameters.rb:69:in `path_parameters='
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+activerecord (5.2.0) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Error occurred while parsing request parameters.
+Contents:
+
+{'file_convertor': {'file': "upirMxHG69Flje+YK0kpRQ==", 'filename': "my file name"}}
+Started POST "/convertor" for 127.0.0.1 at 2018-06-17 16:55:43 +0530
+  
+LoadError (Unable to autoload constant ConvertorsController, expected /home/arun/Desktop/file_convertor/app/controllers/convertors_controller.rb to define it):
+  
+activesupport (5.2.0) lib/active_support/dependencies.rb:503:in `load_missing_constant'
+bootsnap (1.3.0) lib/bootsnap/load_path_cache/core_ext/active_support.rb:43:in `load_missing_constant'
+activesupport (5.2.0) lib/active_support/dependencies.rb:193:in `const_missing'
+activesupport (5.2.0) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.0) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.0) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.0) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.0) lib/active_support/inflector/methods.rb:281:in `constantize'
+activesupport (5.2.0) lib/active_support/dependencies.rb:574:in `get'
+activesupport (5.2.0) lib/active_support/dependencies.rb:605:in `constantize'
+actionpack (5.2.0) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.0) lib/action_dispatch/http/parameters.rb:101:in `binary_params_for?'
+actionpack (5.2.0) lib/action_dispatch/http/parameters.rb:92:in `set_binary_encoding'
+actionpack (5.2.0) lib/action_dispatch/http/parameters.rb:69:in `path_parameters='
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+activerecord (5.2.0) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Error occurred while parsing request parameters.
+Contents:
+
+{'file_convertor': {'file': "upirMxHG69Flje+YK0kpRQ==", 'filename': "my file name"}}
+Started POST "/convertor" for 127.0.0.1 at 2018-06-17 16:56:11 +0530
+Error occurred while parsing request parameters.
+Contents:
+
+{'file_convertor': {'file': "upirMxHG69Flje+YK0kpRQ==", 'filename': "my file name"}}
+  
+ActionDispatch::Http::Parameters::ParseError (765: unexpected token at '{'file_convertor': {'file': "upirMxHG69Flje+YK0kpRQ==", 'filename': "my file name"}}'):
+  
+actionpack (5.2.0) lib/action_dispatch/http/parameters.rb:117:in `rescue in parse_formatted_parameters'
+actionpack (5.2.0) lib/action_dispatch/http/parameters.rb:111:in `parse_formatted_parameters'
+actionpack (5.2.0) lib/action_dispatch/http/request.rb:381:in `block in POST'
+rack (2.0.5) lib/rack/request.rb:57:in `fetch'
+rack (2.0.5) lib/rack/request.rb:57:in `fetch_header'
+actionpack (5.2.0) lib/action_dispatch/http/request.rb:380:in `POST'
+actionpack (5.2.0) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (5.2.0) lib/action_controller/metal/params_wrapper.rb:290:in `_wrapper_enabled?'
+actionpack (5.2.0) lib/action_controller/metal/params_wrapper.rb:244:in `process_action'
+activerecord (5.2.0) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.0) lib/abstract_controller/base.rb:134:in `process'
+actionpack (5.2.0) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.0) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+activerecord (5.2.0) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/convertor" for 127.0.0.1 at 2018-06-17 17:01:01 +0530
+Processing by ConvertorsController#create as */*
+  Parameters: {"file_convertor"=>{"file"=>"upirMxHG69Flje+YK0kpRQ==", "filename"=>"my file name"}, "convertor"=>{"file_convertor"=>{"file"=>"upirMxHG69Flje+YK0kpRQ==", "filename"=>"my file name"}}}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant ConvertorsController::FileConversion):
+  
+app/controllers/convertors_controller.rb:30:in `create'
+Started POST "/convertor" for 127.0.0.1 at 2018-06-17 17:01:12 +0530
+Processing by ConvertorsController#create as */*
+  Parameters: {"file_convertor"=>{"file"=>"upirMxHG69Flje+YK0kpRQ==", "filename"=>"my file name"}, "convertor"=>{"file_convertor"=>{"file"=>"upirMxHG69Flje+YK0kpRQ==", "filename"=>"my file name"}}}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant ConvertorsController::FileConversion):
+  
+app/controllers/convertors_controller.rb:30:in `create'
+Started POST "/convertor" for 127.0.0.1 at 2018-06-17 17:02:57 +0530
+Processing by ConvertorsController#create as */*
+  Parameters: {"file_convertor"=>{"file"=>"upirMxHG69Flje+YK0kpRQ==", "filename"=>"my file name"}, "convertor"=>{"file_convertor"=>{"file"=>"upirMxHG69Flje+YK0kpRQ==", "filename"=>"my file name"}}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Tempfile into String):
+  
+libreconv (0.9.1) lib/libreconv.rb:33:in `convert'
+libreconv (0.9.1) lib/libreconv.rb:10:in `convert'
+app/controllers/convertors_controller.rb:33:in `create'
+Started POST "/convertor" for 127.0.0.1 at 2018-06-17 17:03:46 +0530
+Processing by ConvertorsController#create as */*
+  Parameters: {"file_convertor"=>{"file"=>"upirMxHG69Flje+YK0kpRQ==", "filename"=>"my file name"}, "convertor"=>{"file_convertor"=>{"file"=>"upirMxHG69Flje+YK0kpRQ==", "filename"=>"my file name"}}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Tempfile into String):
+  
+libreconv (0.9.1) lib/libreconv.rb:33:in `convert'
+libreconv (0.9.1) lib/libreconv.rb:10:in `convert'
+app/controllers/convertors_controller.rb:33:in `create'
+Started POST "/convertor" for 127.0.0.1 at 2018-06-17 17:04:05 +0530
+Processing by ConvertorsController#create as */*
+  Parameters: {"file_convertor"=>{"file"=>"upirMxHG69Flje+YK0kpRQ==", "filename"=>"my file name"}, "convertor"=>{"file_convertor"=>{"file"=>"upirMxHG69Flje+YK0kpRQ==", "filename"=>"my file name"}}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Tempfile into String):
+  
+libreconv (0.9.1) lib/libreconv.rb:33:in `convert'
+libreconv (0.9.1) lib/libreconv.rb:10:in `convert'
+app/controllers/convertors_controller.rb:33:in `create'
+Started POST "/convertor" for 127.0.0.1 at 2018-06-17 17:04:23 +0530
+Processing by ConvertorsController#create as */*
+  Parameters: {"file_convertor"=>{"file"=>"upirMxHG69Flje+YK0kpRQ==", "filename"=>"my file name"}, "convertor"=>{"file_convertor"=>{"file"=>"upirMxHG69Flje+YK0kpRQ==", "filename"=>"my file name"}}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Tempfile into String):
+  
+libreconv (0.9.1) lib/libreconv.rb:33:in `convert'
+libreconv (0.9.1) lib/libreconv.rb:10:in `convert'
+app/controllers/convertors_controller.rb:33:in `create'
+Started POST "/convertor" for 127.0.0.1 at 2018-06-17 17:04:45 +0530
+Error occurred while parsing request parameters.
+Contents:
+
+{file_convertor: {"file": "upirMxHG69Flje+YK0kpRQ==", "filename": "my file name"}}
+  
+ActionDispatch::Http::Parameters::ParseError (765: unexpected token at '{file_convertor: {"file": "upirMxHG69Flje+YK0kpRQ==", "filename": "my file name"}}'):
+  
+actionpack (5.2.0) lib/action_dispatch/http/parameters.rb:117:in `rescue in parse_formatted_parameters'
+actionpack (5.2.0) lib/action_dispatch/http/parameters.rb:111:in `parse_formatted_parameters'
+actionpack (5.2.0) lib/action_dispatch/http/request.rb:381:in `block in POST'
+rack (2.0.5) lib/rack/request.rb:57:in `fetch'
+rack (2.0.5) lib/rack/request.rb:57:in `fetch_header'
+actionpack (5.2.0) lib/action_dispatch/http/request.rb:380:in `POST'
+actionpack (5.2.0) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (5.2.0) lib/action_controller/metal/params_wrapper.rb:290:in `_wrapper_enabled?'
+actionpack (5.2.0) lib/action_controller/metal/params_wrapper.rb:244:in `process_action'
+activerecord (5.2.0) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.0) lib/abstract_controller/base.rb:134:in `process'
+actionpack (5.2.0) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.0) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+activerecord (5.2.0) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/convertor" for 127.0.0.1 at 2018-06-17 17:05:19 +0530
+Processing by ConvertorsController#create as */*
+  Parameters: {"file_convertor"=>{"file"=>"upirMxHG69Flje+YK0kpRQ==", "filename"=>"my file name"}, "convertor"=>{"file_convertor"=>{"file"=>"upirMxHG69Flje+YK0kpRQ==", "filename"=>"my file name"}}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Tempfile into String):
+  
+libreconv (0.9.1) lib/libreconv.rb:33:in `convert'
+libreconv (0.9.1) lib/libreconv.rb:10:in `convert'
+app/controllers/convertors_controller.rb:35:in `create'
+Started POST "/convertor" for 127.0.0.1 at 2018-06-17 17:05:35 +0530
+Error occurred while parsing request parameters.
+Contents:
+
+{file_convertor: {"file": "upirMxHG69Flje+YK0kpRQ==", "filename": "my file name"}}
+  
+ActionDispatch::Http::Parameters::ParseError (765: unexpected token at '{file_convertor: {"file": "upirMxHG69Flje+YK0kpRQ==", "filename": "my file name"}}'):
+  
+actionpack (5.2.0) lib/action_dispatch/http/parameters.rb:117:in `rescue in parse_formatted_parameters'
+actionpack (5.2.0) lib/action_dispatch/http/parameters.rb:111:in `parse_formatted_parameters'
+actionpack (5.2.0) lib/action_dispatch/http/request.rb:381:in `block in POST'
+rack (2.0.5) lib/rack/request.rb:57:in `fetch'
+rack (2.0.5) lib/rack/request.rb:57:in `fetch_header'
+actionpack (5.2.0) lib/action_dispatch/http/request.rb:380:in `POST'
+actionpack (5.2.0) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (5.2.0) lib/action_controller/metal/params_wrapper.rb:290:in `_wrapper_enabled?'
+actionpack (5.2.0) lib/action_controller/metal/params_wrapper.rb:244:in `process_action'
+activerecord (5.2.0) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.0) lib/abstract_controller/base.rb:134:in `process'
+actionpack (5.2.0) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.0) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+activerecord (5.2.0) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/convertor" for 127.0.0.1 at 2018-06-17 17:06:50 +0530
+Error occurred while parsing request parameters.
+Contents:
+
+{file_convertor: {"file": "upirMxHG69Flje+YK0kpRQ==", "filename": "my file name"}}
+  
+ActionDispatch::Http::Parameters::ParseError (765: unexpected token at '{file_convertor: {"file": "upirMxHG69Flje+YK0kpRQ==", "filename": "my file name"}}'):
+  
+actionpack (5.2.0) lib/action_dispatch/http/parameters.rb:117:in `rescue in parse_formatted_parameters'
+actionpack (5.2.0) lib/action_dispatch/http/parameters.rb:111:in `parse_formatted_parameters'
+actionpack (5.2.0) lib/action_dispatch/http/request.rb:381:in `block in POST'
+rack (2.0.5) lib/rack/request.rb:57:in `fetch'
+rack (2.0.5) lib/rack/request.rb:57:in `fetch_header'
+actionpack (5.2.0) lib/action_dispatch/http/request.rb:380:in `POST'
+actionpack (5.2.0) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (5.2.0) lib/action_controller/metal/params_wrapper.rb:290:in `_wrapper_enabled?'
+actionpack (5.2.0) lib/action_controller/metal/params_wrapper.rb:244:in `process_action'
+activerecord (5.2.0) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.0) lib/abstract_controller/base.rb:134:in `process'
+actionpack (5.2.0) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.0) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+activerecord (5.2.0) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/convertor" for 127.0.0.1 at 2018-06-17 17:07:12 +0530
+Processing by ConvertorsController#create as */*
+  Parameters: {"file_convertor"=>{"file"=>"upirMxHG69Flje+YK0kpRQ==", "filename"=>"my file name"}, "convertor"=>{"file_convertor"=>{"file"=>"upirMxHG69Flje+YK0kpRQ==", "filename"=>"my file name"}}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Tempfile into String):
+  
+libreconv (0.9.1) lib/libreconv.rb:33:in `convert'
+libreconv (0.9.1) lib/libreconv.rb:10:in `convert'
+app/controllers/convertors_controller.rb:36:in `create'
+Started POST "/convertor" for 127.0.0.1 at 2018-06-17 17:08:21 +0530
+Processing by ConvertorsController#create as */*
+  Parameters: {"file_convertor"=>{"file"=>"upirMxHG69Flje+YK0kpRQ==", "filename"=>"my file name"}, "convertor"=>{"file_convertor"=>{"file"=>"upirMxHG69Flje+YK0kpRQ==", "filename"=>"my file name"}}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Tempfile into String):
+  
+libreconv (0.9.1) lib/libreconv.rb:33:in `convert'
+libreconv (0.9.1) lib/libreconv.rb:10:in `convert'
+app/controllers/convertors_controller.rb:36:in `create'
+Started POST "/convertor" for 127.0.0.1 at 2018-06-17 17:09:20 +0530
+Processing by ConvertorsController#create as */*
+  Parameters: {"file_convertor"=>{"file"=>"upirMxHG69Flje+YK0kpRQ==", "filename"=>"my file name"}, "convertor"=>{"file_convertor"=>{"file"=>"upirMxHG69Flje+YK0kpRQ==", "filename"=>"my file name"}}}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant ConvertorsController::FileConversion):
+  
+app/controllers/convertors_controller.rb:31:in `create'
+Started POST "/convertor" for 127.0.0.1 at 2018-06-17 17:10:20 +0530
+Processing by ConvertorsController#create as */*
+  Parameters: {"file_convertor"=>{"file"=>"upirMxHG69Flje+YK0kpRQ==", "filename"=>"my file name"}, "convertor"=>{"file_convertor"=>{"file"=>"upirMxHG69Flje+YK0kpRQ==", "filename"=>"my file name"}}}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant ConvertorsController::FileConversion):
+  
+app/controllers/convertors_controller.rb:31:in `create'
+Started POST "/convertor" for 127.0.0.1 at 2018-06-17 17:11:10 +0530
+Processing by ConvertorsController#create as */*
+  Parameters: {"file_convertor"=>{"file"=>"upirMxHG69Flje+YK0kpRQ==", "filename"=>"my file name"}, "convertor"=>{"file_convertor"=>{"file"=>"upirMxHG69Flje+YK0kpRQ==", "filename"=>"my file name"}}}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Tempfile into String):
+  
+libreconv (0.9.1) lib/libreconv.rb:33:in `convert'
+libreconv (0.9.1) lib/libreconv.rb:10:in `convert'
+app/controllers/convertors_controller.rb:36:in `create'
+Started POST "/convertor" for 127.0.0.1 at 2018-06-17 17:17:12 +0530
+Processing by ConvertorsController#create as */*
+  Parameters: {"file_convertor"=>{"file"=>"upirMxHG69Flje+YK0kpRQ==", "filename"=>"my file name"}, "convertor"=>{"file_convertor"=>{"file"=>"upirMxHG69Flje+YK0kpRQ==", "filename"=>"my file name"}}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - /home/arun/Desktop/file_convertor/public/my file name.xls):
+  
+app/controllers/convertors_controller.rb:12:in `read'
+app/controllers/convertors_controller.rb:12:in `create'
+Started POST "/convertor" for 127.0.0.1 at 2018-06-17 17:17:56 +0530
+Processing by ConvertorsController#create as */*
+  Parameters: {"file_convertor"=>{"file"=>"upirMxHG69Flje+YK0kpRQ==", "filename"=>"my file name"}, "convertor"=>{"file_convertor"=>{"file"=>"upirMxHG69Flje+YK0kpRQ==", "filename"=>"my file name"}}}
+Completed 500 Internal Server Error in 1923ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `respond_to' for #<ConvertorsController:0x02250808>
+Did you mean?  respond_to?):
+  
+app/controllers/convertors_controller.rb:44:in `create'
+Started POST "/convertor" for 127.0.0.1 at 2018-06-17 17:19:16 +0530
+Processing by ConvertorsController#create as */*
+  Parameters: {"file_convertor"=>{"file"=>"upirMxHG69Flje+YK0kpRQ==", "filename"=>"my file name"}, "convertor"=>{"file_convertor"=>{"file"=>"upirMxHG69Flje+YK0kpRQ==", "filename"=>"my file name"}}}
+Completed 500 Internal Server Error in 1238ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `respond_to' for #<ConvertorsController:0x02e8aec0>
+Did you mean?  respond_to?):
+  
+app/controllers/convertors_controller.rb:47:in `create'
+Started POST "/convertor" for 127.0.0.1 at 2018-06-17 17:20:01 +0530
+  
+SyntaxError (/home/arun/Desktop/file_convertor/app/controllers/convertors_controller.rb:48: syntax error, unexpected tSTRING_DEND, expecting keyword_end
+...s: :created, location: "Done" }
+...                              ^):
+  
+app/controllers/convertors_controller.rb:48: syntax error, unexpected tSTRING_DEND, expecting keyword_end
+Started POST "/convertor" for 127.0.0.1 at 2018-06-17 17:20:39 +0530
+  
+SyntaxError (/home/arun/Desktop/file_convertor/app/controllers/convertors_controller.rb:48: syntax error, unexpected ':', expecting '}'
+    render {json: {download_file_path: downloa...
+                ^
+/home/arun/Desktop/file_convertor/app/controllers/convertors_controller.rb:48: syntax error, unexpected ',', expecting keyword_end
+...file_path: download_file_path}, status: :created, location: ...
+...                              ^
+/home/arun/Desktop/file_convertor/app/controllers/convertors_controller.rb:48: syntax error, unexpected '}', expecting keyword_end
+...s: :created, location: "Done" }}
+...                              ^):
+  
+app/controllers/convertors_controller.rb:48: syntax error, unexpected ':', expecting '}'
+app/controllers/convertors_controller.rb:48: syntax error, unexpected ',', expecting keyword_end
+app/controllers/convertors_controller.rb:48: syntax error, unexpected '}', expecting keyword_end
+Started POST "/convertor" for 127.0.0.1 at 2018-06-17 17:20:52 +0530
+Processing by ConvertorsController#create as */*
+  Parameters: {"file_convertor"=>{"file"=>"upirMxHG69Flje+YK0kpRQ==", "filename"=>"my file name"}, "convertor"=>{"file_convertor"=>{"file"=>"upirMxHG69Flje+YK0kpRQ==", "filename"=>"my file name"}}}
+Completed 201 Created in 839ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/convertor" for 127.0.0.1 at 2018-06-17 17:21:50 +0530
+Processing by ConvertorsController#create as */*
+  Parameters: {"file_convertor"=>{"file"=>"upirMxHG69Flje+YK0kpRQ==", "filename"=>"my file name"}, "convertor"=>{"file_convertor"=>{"file"=>"upirMxHG69Flje+YK0kpRQ==", "filename"=>"my file name"}}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Tempfile into String):
+  
+libreconv (0.9.1) lib/libreconv.rb:33:in `convert'
+libreconv (0.9.1) lib/libreconv.rb:10:in `convert'
+app/controllers/convertors_controller.rb:44:in `create'
